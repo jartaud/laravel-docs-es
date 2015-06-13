@@ -285,7 +285,7 @@ Para tareas muy pesadas, es conveniente presentar un indicador de progreso. Usan
 
     $this->output->progressFinish();
 
-Para mas informaciones, ver la documentación sobre en componente [Barra de progreso de Symfony](http://symfony.com/doc/2.7/components/console/helpers/progressbar.html).
+Para mas informaciones, ver la documentación sobre el componente [Barra de progreso de Symfony](http://symfony.com/doc/2.7/components/console/helpers/progressbar.html).
 
 <a name="registering-commands"></a>
 ## Registrar comandos
@@ -339,7 +339,7 @@ Algunas veces querrá llamar otros comandos desde un comando Artisan existente. 
         //
     }
 
-Si desea llamar otro comando de consola y eliminar todos sus informaciones de salida, puede utilizar el método `callSilent`. Ese método tiene la misma signatura que el método `call`:
+Si desea llamar otro comando de consola y eliminar todas sus informaciones de salida, puede utilizar el método `callSilent`. Ese método tiene la misma signatura que el método `call`:
 
     $this->callSilent('email:send', [
         'user' => 1, '--queue' => 'default'
